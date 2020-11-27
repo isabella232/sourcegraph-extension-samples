@@ -1,4 +1,4 @@
-FROM python:3.7-slim-stretch
+FROM python:3.7-slim-stretch@sha256:f735ecca1e23b00aed7466b56ca587de99dde324d5939075b49d03e3d66b7528
 
 # For running as non-root user
 ARG USER=app
